@@ -1,0 +1,19 @@
+SQL (10)
+Create Golongan Table:
+
+CREATE TABLE Golongan (
+    gol VARCHAR(5),
+    gol_name VARCHAR(50)
+);
+
+Insert Golongan Data:
+
+INSERT INTO Golongan (gol, gol_name)
+VALUES ('I', 'Golongan I'),
+       ('II', 'Golongan II'),
+       ('III', 'Golongan III');
+
+Add Foreign Key:
+
+ALTER TABLE Employee
+ADD CONSTRAINT fk_gol FOREIGN KEY (gol) REFERENCES Golongan(gol);
