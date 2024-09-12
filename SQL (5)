@@ -1,0 +1,16 @@
+SQL (5)
+Reinsert Data:
+
+INSERT INTO Employee (id_emp, name_emp, age)
+
+VALUES ('211', 'Mulya', 21),
+       ('212', 'Dewi', 22),
+       ('213', 'Ayu', 23);
+
+Delete All Data:
+
+DELETE FROM Employee;
+
+Rollback:
+
+ROLLBACK;
