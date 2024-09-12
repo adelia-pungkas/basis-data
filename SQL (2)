@@ -1,0 +1,10 @@
+SQL (2)
+Update Data (fix duplicate):
+
+UPDATE Employee
+SET id_emp = '234', name_emp = 'Dani', age = 23
+WHERE id_emp = '123' AND name_emp = 'Budi' AND age = 21;
+
+Select Data to Check:
+
+SELECT * FROM Employee;
