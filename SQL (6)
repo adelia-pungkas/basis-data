@@ -1,0 +1,5 @@
+SQL (6)
+Display Specific Records:
+
+SELECT * FROM Employee WHERE name_emp = 'Budi' AND age > 21;
+SELECT * FROM Employee WHERE age BETWEEN 22 AND 24;
