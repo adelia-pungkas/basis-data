@@ -1,0 +1,6 @@
+SQL (11)
+Join Employee and Golongan:
+
+SELECT e.id_emp, e.name_emp, e.age, g.gol_name
+FROM Employee e
+JOIN Golongan g ON e.gol = g.gol;
