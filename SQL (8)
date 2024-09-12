@@ -1,0 +1,5 @@
+SQL (8)
+Insert from Another Table:
+
+INSERT INTO Employee (id_emp, name_emp, age)
+SELECT id, name, age FROM AnotherTable WHERE condition;
