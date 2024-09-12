@@ -1,0 +1,15 @@
+SQL (7)
+Alter Table - Add Column:
+
+ALTER TABLE Employee
+ADD gol VARCHAR(5);
+
+Update 'gol' Column:
+
+UPDATE Employee SET gol = 'I' WHERE id_emp = '123';
+UPDATE Employee SET gol = 'II' WHERE id_emp = '234';
+
+Use Conditions:
+
+SELECT * FROM Employee WHERE age BETWEEN 21 AND 24;
+SELECT * FROM Employee WHERE gol NOT IN ('I', 'III');
