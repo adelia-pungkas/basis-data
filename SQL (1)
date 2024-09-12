@@ -1,0 +1,13 @@
+Buatlah table Employee dengan atribut berikut menggunakan perintah CREATE Tampilkan tabel yang telah dibuat dengan perintah SELECT danTambahkan data dengan perintah INSERT jalankan 2x 
+1.	Create Table Employee:
+CREATE TABLE Employee (
+    id_emp VARCHAR(5),
+    name_emp VARCHAR(50),
+    age INT
+);
+2.	Insert data
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES ('123', 'Budi', 21),
+       ('234', 'Dani', 23);
+3.	Select Data
+SELECT * FROM Employee;
