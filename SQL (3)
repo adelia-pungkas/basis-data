@@ -1,0 +1,10 @@
+SQL (3)
+Alter Table - Primary Key:
+
+ALTER TABLE Employee
+ADD PRIMARY KEY (id_emp);
+
+Insert Data and Check:
+
+INSERT INTO Employee (id_emp, name_emp, age)
+VALUES ('123', 'Arief', 24);  -- This should cause a duplicate error.
